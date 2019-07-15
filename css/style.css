@@ -107,7 +107,8 @@ a:active,
 a:focus,
 a:active {
     text-decoration : none;
-    outline         : none
+    outline         : none;
+    color: #0B9CBE;
     }
 
 a:hover,
@@ -280,7 +281,7 @@ button:focus,
 
 .main-menu .nav li a:hover,
 .main-menu .nav li.active a {
-    color      : #0033FF;
+    color      : #999999;
     background : transparent;
     }
 
@@ -455,6 +456,14 @@ button:focus,
  * Team Section
  *-----------------------------------------------*/
 
+.thumbnail .img-circle {
+    display: block;
+    overflow: hidden;
+    height: 270px;
+    width: 270px;
+    margin: 0 auto;
+}
+
 .team .thumbnail {
     padding          : 0;
     line-height      : 22px;
@@ -519,29 +528,29 @@ button:focus,
 /* --------------------------
  * Agenda
  *---------------------------*/
-.section-ajenda .session {
+.section-agenda .session {
     padding       : 15px 0;
     border-left   : 1px solid #eeeeee;
     margin-bottom : 40px;
     }
 
-.section-ajenda .session time {
+.section-agenda .session time {
     padding       : 5px 25px 15px;
     border-bottom : 1px solid #eeeeee;
     display       : inline-block;
     }
 
-.section-ajenda .session h2 {
+.section-agenda .session h2 {
     margin : 20px 0 0 20px;
     }
 
-.section-ajenda .session h3 {
+.section-agenda .session h3 {
     margin         : 20px 0 20px 20px;
     font-size      : 20px;
     text-transform : uppercase;
     }
 
-.section-ajenda .session h3 span {
+.section-agenda .session h3 span {
     font-size   : 14px;
     display     : block;
     line-height : 1;
@@ -620,11 +629,12 @@ button:focus,
     }
 
 /* --------------------------
- * Client Logo 
+ * Client Logo
  *---------------------------*/
 
 .client-logo a img {
     width              : 100%;
+    max-width          : 200px;
     opacity            : 1;
     -webkit-transition : all 0.8s ease 0s;
     -moz-transition    : all 0.8s ease 0s;
