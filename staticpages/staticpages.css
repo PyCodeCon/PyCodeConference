@@ -1,0 +1,15 @@
+.jumbotron-staticpage {
+    background-size: cover;
+    padding: 0;
+    margin: 100px 0 20px 0;
+    min-height: 0;
+    vertical-align: middle;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+#section-static {
+    padding: 50px 0;
+}
