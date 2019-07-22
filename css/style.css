@@ -464,6 +464,13 @@ button:focus,
     margin: 0 auto;
 }
 
+.logotype {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .team .thumbnail {
     padding          : 0;
     line-height      : 22px;
