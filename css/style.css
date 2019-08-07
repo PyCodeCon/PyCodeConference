@@ -417,8 +417,8 @@ button:focus,
  * Section Wrapper
  *---------------------------*/
 .section-wrapper {
-    padding : 100px 0;
-    }
+    padding : 50px 0 0 0;
+}
 
 /*---------------------------
  * Section Title
@@ -456,7 +456,7 @@ button:focus,
     }
 
 /* ----------------------------------------------
- * Team Section
+ * Agenda/Speakers Section
  *-----------------------------------------------*/
 
 .thumbnail .img-circle {
@@ -465,6 +465,14 @@ button:focus,
     height: 170px;
     width: 170px;
     margin: 0 auto;
+}
+
+#organizers .row img {
+    padding-bottom: 20px;
+}
+
+.modal img {
+    max-height: 170px;
 }
 
 .logotype {
@@ -568,17 +576,11 @@ button:focus,
 
 td {
     vertical-align: middle;
-    /* background-color:hsl(42, 93%, 90%); */
     font-size: 18px;
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
     background-color:hsl(42, 93%, 92%);
-}
-
-td img {
-    width: 50px;
-    height: 50px;
 }
 
 td:first-child,
