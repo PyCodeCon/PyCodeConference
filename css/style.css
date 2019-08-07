@@ -718,8 +718,6 @@ only screen and (max-width: 760px),
 .client-logo a img {
     width              : 100%;
     max-width          : 200px;
-    /* max-height         : 100px; */
-    opacity            : 1;
     -webkit-transition : all 0.8s ease 0s;
     -moz-transition    : all 0.8s ease 0s;
     -o-transition      : all 0.8s ease 0s;
@@ -729,6 +727,10 @@ only screen and (max-width: 760px),
 .client-logo a:hover img {
     opacity : .5;
     }
+
+.client-logo {
+    padding-bottom: 50px;
+}
 
 @media (max-width : 992px) {
     .client-logo .section-margin {
