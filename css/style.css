@@ -342,6 +342,13 @@ button:focus,
         }
     }
 
+.videos {
+    margin: 50px 0 80px;
+}
+
+.videos .btn {
+    margin-right: 10px;
+}
 /*-------------------
  * Jumbotron
  *-------------------*/
@@ -390,10 +397,6 @@ button:focus,
 .jumbotron .content .event-date {
     font-size     : 24px;
     margin-bottom : 40px;
-    }
-
-.jumbotron .btn {
-    margin-top : 40px;
     }
 
 @media (max-width : 600px) {
