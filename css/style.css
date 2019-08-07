@@ -718,6 +718,7 @@ only screen and (max-width: 760px),
 .client-logo a img {
     width              : 100%;
     max-width          : 200px;
+    /* max-height         : 100px; */
     opacity            : 1;
     -webkit-transition : all 0.8s ease 0s;
     -moz-transition    : all 0.8s ease 0s;
