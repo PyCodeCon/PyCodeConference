@@ -311,7 +311,6 @@ button:focus,
         }
     }
 
-
 /* Sticky Menu */
 .sticky-nav {
     position           : fixed;
@@ -513,15 +512,12 @@ button:focus,
     padding          : 10px 0;
     }
 
-
-
 .team .thumbnail h3 small {
     font-size: 14px;
     color     : #888;
     display: block;
     font-weight: normal;
     }
-
 
 .team .social-links li {
     display      : inline-block;
@@ -633,6 +629,10 @@ only screen and (max-width: 760px),
 		padding-right: 10px;
 		white-space: nowrap;
 	}
+}
+
+.sticky-nav .nav li a.active {
+    color: #F7B621;;
 }
 
 /* #0B9CBE;
@@ -786,7 +786,6 @@ only screen and (max-width: 760px),
     box-shadow   : none;
     border-color : #f7b621;
     }
-
 
 @media (max-width : 600px) {
     .form-control.input-lg{
