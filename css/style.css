@@ -472,6 +472,7 @@ button:focus,
 
 .modal img {
     max-height: 170px;
+    max-width: 170px;
 }
 
 .logotype {
