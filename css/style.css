@@ -458,11 +458,20 @@ button:focus,
  * Agenda/Speakers Section
  *-----------------------------------------------*/
 
-.thumbnail .img-circle {
+ #section-speaker .thumbnail {
+    padding          : 0;
+    line-height      : 22px;
+    background-color : transparent;
+    border           : 0;
+    margin-bottom: 30px;
+}
+
+.thumbnail a,
+.thumbnail img {
     display: block;
     overflow: hidden;
-    height: 170px;
-    width: 170px;
+    height: 100px;
+    width: 100px;
     margin: 0 auto;
 }
 
@@ -476,19 +485,27 @@ button:focus,
 }
 
 .logotype {
-    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.team .thumbnail {
-    padding          : 0;
-    line-height      : 22px;
-    background-color : transparent;
-    border           : 0;
-    margin-bottom: 30px;
-    }
+#section-sponsor .logotype {
+    height: 150px;
+}
+
+#section-partner .logotype {
+    height: 100px;
+}
+
+#section-organizers img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#section-organizers {
+    padding-bottom: 30px;
+}
 
 @media (max-width : 767px) {
     .team .thumbnail {
@@ -576,11 +593,6 @@ td {
     font-size: 18px;
 }
 
-.table-bordered>tbody>tr>td[data-toggle="modal"]:hover {
-    color: #F7B621;
-    text-decoration: underline;
-}
-
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
     background-color:hsl(42, 93%, 92%);
 }
@@ -597,6 +609,10 @@ footer .fa {
 .jumbotron .fa {
     font-size: 60px;
     padding: 20px;
+}
+
+.single-text {
+    margin-bottom: 40px;
 }
 
 @media
