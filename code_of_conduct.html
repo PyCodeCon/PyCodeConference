@@ -49,25 +49,66 @@
                 <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                     <ul class="nav navbar-nav">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden active"><a href="#page-top"></a></li>
-                        <li><a class="page-scroll" href="index.html#section-C4P">C4P</a></li>
-                        <li><a class="page-scroll" href="index.html#section-speaker">Speakers</a></li>
-                        <li><a class="page-scroll" href="index.html#section-agenda">Agenda</a></li>
-                        <li><a class="page-scroll" href="index.html#section-pricing">Tickets</a></li>
-                        <li><a class="page-scroll" href="#section-sponsor">Sponsors</a></li>
-                        <li><a class="page-scroll" href="#section-partner">Partners</a></li>
-                        <li><a class="page-scroll" href="index.html#section-venue">Place</a></li>
-                        <li><a href="code_of_conduct.html">Code of conduct</a></li>
-                        <li><a class="active" href="organizers.html">Organizers</a></li>
-                        <li><a href="archives.html">Archives</a></li>
+                        <li class="hidden"><a href="#page-top"></a></li>
+
+                        <li class="dropdown">
+                            <a href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">
+                                Programme <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="index.html#section-C4P">C4P</a></li>
+                                <li><a class="page-scroll" href="index.html#section-speaker">Speakers</a></li>
+                                <li><a class="page-scroll" href="index.html#section-agenda">Agenda</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">
+                                Cooperation <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="index.html#section-sponsor">Sponsors</a></li>
+                                <li><a class="page-scroll" href="index.html#section-partner">Partners</a></li>
+                                <li><a class="page-scroll" href="index.html#section-suppoer">Support us</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">
+                                Participation <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="index.html#section-pricing">Tickets</a></li>
+                                <li><a class="page-scroll" href="index.html#section-venue">Place</a></li>
+                                <li><a href="code_of_conduct.html">Code of conduct</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">
+                                About <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="index.html#section-organizers">Organizers</a></li>
+                                <li><a href="archives.html">Archives</a></li>
+                                <li><a href="privacy.html">Privacy policy</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
+                <!-- /.navbar-collapse -->
             </div>
             <!-- /.container -->
         </nav>
-
         <!-- .nav -->
-
     </header>
 
     <div class="jumbotron-staticpage text-center">
@@ -148,7 +189,7 @@
     <div class="copyright-section">
         <div class="container">
             <div class="col-md-12">
-                <div class="copytext text-center">See our <a href="privacy.html">Privacy Policy</a></div>
+
                 <div class="copytext text-center">
                         PyCode Conference &copy; Design by <a href="https://uicookies.com/">uicookies</a>,
                     under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 license</a>

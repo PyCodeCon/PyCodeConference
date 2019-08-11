@@ -47,21 +47,62 @@
                     <a class="navbar-brand page-scroll" href="#section-intro"><img src="img/pycode.png" alt="pycode"></a>
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                     <ul class="nav navbar-nav">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li class="hidden"><a href="#page-top"></a></li>
-                        <li><a class="page-scroll" href="#section-C4P">C4P</a></li>
-                        <li><a class="page-scroll" href="#section-speaker">Speakers</a></li>
-                        <li><a class="page-scroll" href="#section-agenda">Agenda</a></li>
-                        <li><a class="page-scroll" href="#section-pricing">Tickets</a></li>
-                        <li><a class="page-scroll" href="#section-sponsor">Sponsors</a></li>
-                        <li><a class="page-scroll" href="#section-partner">Partners</a></li>
-                        <li><a class="page-scroll" href="#section-venue">Place</a></li>
-                        <li><a href="code_of_conduct.html">Code of conduct</a></li>
-                        <li><a href="organizers.html">Organizers</a></li>
-                        <li><a href="archives.html">Archives</a></li>
+
+                        <li class="dropdown">
+                            <a href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">
+                                Programme <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="#section-C4P">C4P</a></li>
+                                <li><a class="page-scroll" href="#section-speaker">Speakers</a></li>
+                                <li><a class="page-scroll" href="#section-agenda">Agenda</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">
+                                Cooperation <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="#section-sponsor">Sponsors</a></li>
+                                <li><a class="page-scroll" href="#section-partner">Partners</a></li>
+                                <li><a class="page-scroll" href="#section-suppoer">Support us</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">
+                                Participation <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="#section-pricing">Tickets</a></li>
+                                <li><a class="page-scroll" href="#section-venue">Place</a></li>
+                                <li><a href="code_of_conduct.html">Code of conduct</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#"
+                                class="dropdown-toggle"
+                                data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">
+                                About <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="page-scroll" href="#section-organizers">Organizers</a></li>
+                                <li><a href="archives.html">Archives</a></li>
+                                <li><a href="privacy.html">Privacy policy</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -145,11 +186,11 @@
 
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <a href="https://twitter.com/RaeKnowler">
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#rknowler">
                                     <img
-                                    class="img-circle"
-                                    src="img/speakers/rknowler.jpg" class="img-responsive"
-                                    alt="Rae Knowler">
+                                        src="img/speakers/rknowler.jpg" class="img-responsive"
+                                        alt="Rae Knowler">
                                 </a>
                                 <figcaption class="caption text-center">
                                     Rae Knowler
@@ -159,11 +200,11 @@
 
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <a href="https://twitter.com/yorkshre">
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#askamruk">
                                     <img
-                                    class="img-circle"
-                                    src="img/speakers/askamruk.jpg" class="img-responsive"
-                                    alt="Agata Skamruk">
+                                        src="img/speakers/askamruk.jpg" class="img-responsive"
+                                        alt="Agata Skamruk">
                                 </a>
                                 <figcaption class="caption text-center">
                                     Agata Skamruk
@@ -173,11 +214,11 @@
 
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <a href="https://twitter.com/aniawsz">
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#awszeborowska">
                                     <img
-                                    class="img-circle"
-                                    src="img/speakers/awszeborowska.jpg" class="img-responsive"
-                                    alt="Anna Wszeborowska">
+                                        src="img/speakers/awszeborowska.jpg" class="img-responsive"
+                                        alt="Anna Wszeborowska">
                                 </a>
                                 <figcaption class="caption text-center">
                                     Anna Wszeborowska
@@ -187,11 +228,11 @@
 
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <a href="https://www.linkedin.com/in/mateuszkrainski">
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#mkrainski">
                                     <img
-                                    class="img-circle"
-                                    src="img/speakers/mkrainski.jpg" class="img-responsive"
-                                    alt="Mateusz Krainski">
+                                        src="img/speakers/mkrainski.jpg" class="img-responsive"
+                                        alt="Mateusz Kraiński">
                                 </a>
                                 <figcaption class="caption text-center">
                                     Mateusz Kraiński
@@ -201,11 +242,11 @@
 
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <a href="http://maciekj.pl">
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#mjanuszewski">
                                     <img
-                                    class="img-circle"
-                                    src="img/speakers/mjanuszewski.jpg" class="img-responsive"
-                                    alt="Maciej Januszewski" />
+                                        src="img/speakers/mjanuszewski.jpg" class="img-responsive"
+                                        alt="Maciej Januszewski" />
                                 </a>
                                 <figcaption class="caption text-center">
                                     Maciej Januszewski
@@ -214,10 +255,12 @@
                         </div>
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <img
-                                    class="img-circle"
-                                    src="img/speakers/kszyda.jpg" class="img-responsive"
-                                    alt="Krzysztof Szyda" />
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="kszyda">
+                                    <img
+                                        src="img/speakers/kszyda.jpg" class="img-responsive"
+                                        alt="Krzysztof Szyda" />
+                                </a>
                                 <figcaption class="caption text-center">
                                     Krzysztof Szyda
                                 </figcaption>
@@ -228,10 +271,12 @@
                     <div class="row">
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <img
-                                    class="img-circle"
-                                    src="img/speakers/speaker.png" class="img-responsive"
-                                    alt="Krzysztof Szyda" />
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#morfanian">
+                                    <img
+                                        src="img/speakers/speaker.png" class="img-responsive"
+                                        alt="Mikaeil Orfanian" />
+                                </a>
                                 <figcaption class="caption text-center">
                                     Mikaeil Orfanian
                                 </figcaption>
@@ -240,10 +285,12 @@
 
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <img
-                                    class="img-circle"
-                                    src="img/speakers/speaker.png" class="img-responsive"
-                                    alt="Krzysztof Szyda" />
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#clozinski">
+                                    <img
+                                        src="img/speakers/speaker.png" class="img-responsive"
+                                        alt="Christopher Lozinski" />
+                                </a>
                                 <figcaption class="caption text-center">
                                     Christopher Lozinski
                                 </figcaption>
@@ -252,10 +299,12 @@
 
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <img
-                                    class="img-circle"
-                                    src="img/speakers/gkocjan.jpg" class="img-responsive"
-                                    alt="Grzegorz Kocjan" />
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#gkocjan">
+                                    <img
+                                        src="img/speakers/gkocjan.jpg" class="img-responsive"
+                                        alt="Grzegorz Kocjan" />
+                                </a>
                                 <figcaption class="caption text-center">
                                     Grzegorz Kocjan
                                 </figcaption>
@@ -264,10 +313,12 @@
 
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <img
-                                    class="img-circle"
-                                    src="img/speakers/speaker.png" class="img-responsive"
-                                    alt="Jon Nordby" />
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#jnordby">
+                                    <img
+                                        src="img/speakers/speaker.png" class="img-responsive"
+                                        alt="Jon Nordby" />
+                                </a>
                                 <figcaption class="caption text-center">
                                     Jon Nordby
                                 </figcaption>
@@ -276,10 +327,12 @@
 
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <img
-                                    class="img-circle"
-                                    src="img/speakers/speaker.png" class="img-responsive"
-                                    alt="Eyal Yavor" />
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#eyavor">
+                                    <img
+                                        src="img/speakers/speaker.png" class="img-responsive"
+                                        alt="Eyal Yavor" />
+                                </a>
                                 <figcaption class="caption text-center">
                                     Eyal Yavor
                                 </figcaption>
@@ -288,10 +341,12 @@
 
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <img
-                                    class="img-circle"
-                                    src="img/speakers/jkolodziej.jpg" class="img-responsive"
-                                    alt="Jacek Kołodziej" />
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="#jkolodziej">
+                                    <img
+                                        src="img/speakers/jkolodziej.jpg" class="img-responsive"
+                                        alt="Jacek Kołodziej" />
+                                </a>
                                 <figcaption class="caption text-center">
                                     Jacek Kołodziej
                                 </figcaption>
@@ -302,10 +357,12 @@
                     <div class="row">
                         <div class="col-sm-2">
                             <figure class="thumbnail">
-                                <img
-                                    class="img-circle"
-                                    src="img/speakers/tkonieczny.jpg" class="img-responsive"
-                                    alt="Tomasz Konieczny" />
+                                <a class="img-circle"
+                                    data-toggle="modal" data-target="tkonieczny">
+                                    <img
+                                        src="img/speakers/tkonieczny.jpg" class="img-responsive"
+                                        alt="Tomasz Konieczny" />
+                                </a>
                                 <figcaption class="caption text-center">
                                     Tomasz Konieczny
                                 </figcaption>
@@ -548,7 +605,274 @@
     </section>
     <!-- agenda -->
 
-    <!-- speakers modals -->
+    <section id="section-pricing" class="section-wrapper pricing-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Tickets</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="pricing-table-default text-center">
+                        <div class="pricing-head">
+                            <h3>Early PASS</h3>
+                            <span class="price"><sup></sup></span>
+                        </div>
+                        <div class="pricing-detail">
+                            <ul class="pricing-list pink-i">
+                                <li>Main keynote speeches</li>
+                                <li>Access to all areas</li>
+                                <li>Coffee service and lunch</li>
+                                <li><s>Issuing a company invoice</s></li>
+                            </ul>
+                        </div>
+                        <a href="https://eventil.com/events/pycode-conference" class="btn btn-primary">Buy the ticket</a>
+                    </div>
+                    <!-- /.pricing-table-wrapper -->
+                </div>
+                <!-- .col-sm-4 -->
+
+                <div class="col-sm-4">
+                    <div class="pricing-table-default text-center">
+                        <div class="pricing-head">
+                            <h3>Early Student PASS</h3>
+                            <span class="price"><sup></sup></span>
+                        </div>
+                        <div class="pricing-detail">
+                            <ul class="pricing-list pink-i">
+                                <li>Main keynote speeches</li>
+                                <li>Access to all areas</li>
+                                <li>Coffee service and lunch</li>
+                                <li><s>Issuing a company invoice</s></li>
+                            </ul>
+                        </div>
+                        <a href="https://eventil.com/events/pycode-conference" class="btn btn-primary">Buy the ticket</a>
+                    </div>
+                    <!-- /.pricing-table-wrapper -->
+                </div>
+                <!-- .col-sm-4 -->
+
+                <div class="col-sm-4">
+                    <div class="pricing-table-default text-center">
+                        <div class="pricing-head">
+                            <h3>Early Business PASS</h3>
+                            <span class="price"><sup></sup></span>
+                        </div>
+                        <div class="pricing-detail">
+                            <ul class="pricing-list pink-i">
+                                <li>Main keynote speeches</li>
+                                <li>Access to all areas</li>
+                                <li>Coffee service and lunch</li>
+                                <li>Issuing a company invoice</li>
+                            </ul>
+                        </div>
+                        <a href="https://eventil.com/events/pycode-conference" class="btn btn-primary">Buy the ticket</a>
+                    </div>
+                    <!-- /.pricing-table-wrapper -->
+                </div>
+
+                <!-- .col-sm-4 -->
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+        <div class="container">
+            <!-- /.row -->
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-sm-12">
+                    <div class="pricing-table-default text-center">
+                        <div class="pricing-head">
+                            <h3>Diversity tickets</h3>
+                            <span class="price"><sup></sup></span>
+                        </div>
+                        <div class="pricing-detail">
+                            <p>Diversity is what makes communities whole.</p>
+                        </div>
+                        <a href="https://diversitytickets.org/en/events/448/" class="btn btn-primary">Apply</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .pricing-section -->
+
+    <section id="section-sponsor" class="section-wrapper client-logo gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Sponsors</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 section-margin text-center">
+                    <div class="logotype">
+                        <a href="https://codilime.com">
+                            <img src="img/sponsors/codilime.png" alt="codilime">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6 section-margin text-center">
+                    <div class="logotype">
+                        <a href="https://jetbrains.com">
+                            <img src="img/sponsors/jetbrains.png" alt="jetbrains">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of .container -->
+    </section>
+    <!-- .client-logo -->
+
+    <section id="section-partner" class="section-wrapper client-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Partners</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 section-margin text-center">
+                    <div class="logotype">
+                        <a href="https://www.python.org/psf/">
+                            <img src="img/partners/psf.png" alt="Python Software Foundation">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 section-margin text-center">
+                    <div class="logotype">
+                        <a href="https://thecamels.org/pl/">
+                            <img src="img/partners/thecamels.png" alt="thecamels">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-4 section-margin text-center">
+                    <div class="logotype">
+                        <a href="https://osworld.pl">
+                            <img src="img/partners/osworld.png" alt="osworld">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-4 section-margin text-center">
+                    <div class="logotype">
+                        <a href="https://www.meetup.com/PyGda-pl/">
+                            <img src="img/partners/gda.jpg" alt="osworld">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of .container -->
+    </section>
+
+    <section id="section-support" class="section-wrapper gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Support us</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="single-text text-center">Do you want to support our conference? Please contact us: <a
+                    href="mailto:askamruk@pycode-conference.org">askamruk@pycode-conference.org</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-organizers" class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Organizers</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <figure class="thumbnail">
+                        <a class="img-circle"
+                            data-toggle="modal" data-target="#askamruk">
+                            <img
+                                src="img/speakers/askamruk.jpg" class="img-responsive"
+                                alt="Agata Skamruk" />
+                        </a>
+                        <figcaption class="caption text-center">
+                            Agata Skamruk
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="thumbnail">
+                        <a class="img-circle"
+                            data-toggle="modal" data-target="#nstanko">
+                            <img
+                                src="img/speakers/nstanko.jpg" class="img-responsive"
+                                alt="Natalia Stanko" />
+                        </a>
+                        <figcaption class="caption text-center">
+                            Natalia Stanko
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="thumbnail">
+                        <a class="img-circle"
+                            data-toggle="modal" data-target="#kgoralewski">
+                            <img
+                                src="img/speakers/kgoralewski.jpg" class="img-responsive"
+                                alt="Jakub Góralewski" />
+                        </a>
+                        <figcaption class="caption text-center">
+                            Jakub Góralewski
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-venue" class="section-wrapper gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Place</h1>
+                    </div>
+                    <div class="single-text text-center">
+                        <strong>PyCode Conference will take place at O4 Coworking</strong>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row-->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <div class="google-maps">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.3943263923616!2d18.56756331225244!3d54.403012353656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd752e8e7ea7f1%3A0x8b28ef1c9749bce7!2sO4+Coworking!5e0!3m2!1spl!2spl!4v1557481504406!5m2!1spl!2spl"
+                                    width="1100" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .row-->
+        </div>
+    </section>
+    <!-- section venue -->
+
+    <!-- modals -->
     <div class="modal fade" id="rknowler">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -592,6 +916,7 @@
                         </div>
                         <div class="col-xs-8">
                             <h3 class="modal-title">Agata Skamruk</h3>
+                            <small>Main organizer</small>
                             <ul class="social-links list-inline">
                                 <li>
                                     <a href="https://twitter.com/yorkshre"><i
@@ -630,6 +955,7 @@
                         </div>
                         <div class="col-xs-8">
                             <h4>Agata Skamruk</h4>
+                            <small>Main organizer</small>
                             <ul class="social-links list-inline">
                                 <li>
                                     <a href="https://twitter.com/yorkshre"><i
@@ -715,6 +1041,42 @@
                 <div class="modal-body">
                     <h4>About the speaker</h4>
                     <p>8 lat z Pythonem to wspaniała przygoda, nieważne czy musiałem naprawić błąd na wczoraj, czy zaprojektować zaawansowany i wydajny system, Python nigdy mnie nie zawiódł! 🐍 Uwielbiam optymalizację kodu i złożone problemy. Ostatnio interesują mnie także aspekty organizacyjne i psychologiczne w wytwarzaniu oprogramowania. Po godzinach buduję startupy, tańczę modern jazz, a resztki wolnego czasu marnuję na serialach sci-fi.</p>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="modal fade" id="nstanko">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <img src="img/speakers/nstanko.jpg" alt="Natalia Stanko">
+                        </div>
+                        <div class="col-xs-8">
+                            <h3 class="modal-title">Natalia Stanko</h3>
+                            <small>Organizer</small>
+                            <ul class="social-links list-inline">
+                                <li>
+                                    <a href="https://twitter.com/nataliastanko"><i
+                                        class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/nataliastanko/"><i
+                                        class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <h4>About the organizer</h4>
+                    <p>Software engineer, events organizer. OSes, web frameworks and new technologies passionate. Women in Technology organization in Cracow founder.</p>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -974,227 +1336,13 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    <!-- speakers modals end -->
-
-    <section id="section-pricing" class="section-wrapper pricing-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h1>Tickets</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="pricing-table-default text-center">
-                        <div class="pricing-head">
-                            <h3>Early PASS</h3>
-                            <span class="price"><sup></sup></span>
-                        </div>
-                        <div class="pricing-detail">
-                            <ul class="pricing-list pink-i">
-                                <li>Main keynote speeches</li>
-                                <li>Access to all areas</li>
-                                <li>Coffee service and lunch</li>
-                                <li><s>Issuing a company invoice</s></li>
-                            </ul>
-                        </div>
-                        <a href="https://eventil.com/events/pycode-conference" class="btn btn-primary">Buy the ticket</a>
-                    </div>
-                    <!-- /.pricing-table-wrapper -->
-                </div>
-                <!-- .col-sm-4 -->
-
-                <div class="col-sm-4">
-                    <div class="pricing-table-default text-center">
-                        <div class="pricing-head">
-                            <h3>Early Student PASS</h3>
-                            <span class="price"><sup></sup></span>
-                        </div>
-                        <div class="pricing-detail">
-                            <ul class="pricing-list pink-i">
-                                <li>Main keynote speeches</li>
-                                <li>Access to all areas</li>
-                                <li>Coffee service and lunch</li>
-                                <li><s>Issuing a company invoice</s></li>
-                            </ul>
-                        </div>
-                        <a href="https://eventil.com/events/pycode-conference" class="btn btn-primary">Buy the ticket</a>
-                    </div>
-                    <!-- /.pricing-table-wrapper -->
-                </div>
-                <!-- .col-sm-4 -->
-
-                <div class="col-sm-4">
-                    <div class="pricing-table-default text-center">
-                        <div class="pricing-head">
-                            <h3>Early Business PASS</h3>
-                            <span class="price"><sup></sup></span>
-                        </div>
-                        <div class="pricing-detail">
-                            <ul class="pricing-list pink-i">
-                                <li>Main keynote speeches</li>
-                                <li>Access to all areas</li>
-                                <li>Coffee service and lunch</li>
-                                <li>Issuing a company invoice</li>
-                            </ul>
-                        </div>
-                        <a href="https://eventil.com/events/pycode-conference" class="btn btn-primary">Buy the ticket</a>
-                    </div>
-                    <!-- /.pricing-table-wrapper -->
-                </div>
-
-                <!-- .col-sm-4 -->
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-        <div class="container">
-            <!-- /.row -->
-            <div class="row" style="margin-top: 50px;">
-                <div class="col-sm-12">
-                    <div class="pricing-table-default text-center">
-                        <div class="pricing-head">
-                            <h3>Diversity tickets</h3>
-                            <span class="price"><sup></sup></span>
-                        </div>
-                        <div class="pricing-detail">
-                            <p>Diversity is what makes communities whole.</p>
-                        </div>
-                        <a href="https://diversitytickets.org/en/events/448/" class="btn btn-primary">Apply</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- .pricing-section -->
-
-    <section id="section-sponsor" class="section-wrapper client-logo gray-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h1>Sponsors</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 section-margin text-center">
-                    <div class="logotype">
-                        <a href="https://codilime.com">
-                            <img src="img/sponsors/codilime.png" alt="codilime">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 section-margin text-center">
-                    <div class="logotype">
-                        <a href="https://jetbrains.com">
-                            <img src="img/sponsors/jetbrains.png" alt="jetbrains">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--end of .container -->
-    </section>
-    <!-- .client-logo -->
-
-    <section id="section-partner" class="section-wrapper client-logo">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h1>Partners</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 section-margin text-center">
-                    <div class="logotype">
-                        <a href="https://www.python.org/psf/">
-                            <img src="img/partners/psf.png" alt="Python Software Foundation">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-4 section-margin text-center">
-                    <div class="logotype">
-                        <a href="https://thecamels.org/pl/">
-                            <img src="img/partners/thecamels.png" alt="thecamels">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-4 section-margin text-center">
-                    <div class="logotype">
-                        <a href="https://osworld.pl">
-                            <img src="img/partners/osworld.png" alt="osworld">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-4 section-margin text-center">
-                    <div class="logotype">
-                        <a href="https://www.meetup.com/PyGda-pl/">
-                            <img src="img/partners/gda.jpg" alt="osworld">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--end of .container -->
-    </section>
-
-    <section id="section-support" class="section-wrapper  gray-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h1>Support us</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="single-text text-center">Do you want to support our conference? Please contact us: <a
-                    href="mailto:askamruk@pycode-conference.org">askamruk@pycode-conference.org</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="section-venue" class="section-wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h1>Place</h1>
-                    </div>
-                    <div class="single-text text-center">
-                        <strong>PyCode Conference will take place at O4 Coworking</strong>
-                    </div>
-                </div>
-            </div>
-            <!-- /.row-->
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div>
-                        <div class="google-maps">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.3943263923616!2d18.56756331225244!3d54.403012353656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd752e8e7ea7f1%3A0x8b28ef1c9749bce7!2sO4+Coworking!5e0!3m2!1spl!2spl!4v1557481504406!5m2!1spl!2spl"
-                                    width="1100" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .row-->
-        </div>
-    </section>
-    <!-- contact-section -->
+    <!-- modals end -->
 
     <footer class="footer">
         <div class="copyright-section">
             <div class="container">
                 <div class="col-md-12">
-                    <div class="copytext text-center">See our <a href="privacy.html">Privacy Policy</a></div>
+
                     <div class="copytext text-center">
                             PyCode Conference &copy; Design by <a href="https://uicookies.com/">uicookies</a>,
                         under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 license</a>
