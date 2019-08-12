@@ -7,6 +7,7 @@ Author: uiCookies.com, nataliastanko
 #F7B621;
 */
 
+
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -48,7 +49,12 @@ body {
     border: 10px solid #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0 0 15px;
     color: #0e1555;
 }
@@ -88,9 +94,11 @@ h6 {
     line-height: 24px;
 }
 
+
 /* --------------------------------------
  * LINK STYLE
  *------------------------------------------*/
+
 a {
     color: #f7b621;
     text-decoration: none;
@@ -130,7 +138,9 @@ ul {
     list-style: none;
 }
 
+
 /*Button Style*/
+
 .btn {
     padding: 10px 30px;
     margin-bottom: 0;
@@ -146,7 +156,9 @@ ul {
     padding: 15px 30px
 }
 
+
 /*btn-primary*/
+
 .btn-primary {
     background-color: #f7b621;
     border-color: #f7b621;
@@ -160,7 +172,9 @@ ul {
     border-color: #f7b621;
 }
 
+
 /*btn-default*/
+
 .btn-default {
     color: #ffffff;
     background-color: transparent;
@@ -191,13 +205,16 @@ button:focus,
     background-color: #ffffff;
 }
 
+
 /* --------------------
  *  main Wrapper
  * -------------------*/
+
 #main-wrapper {
     background: #ffffff;
     overflow: hidden;
 }
+
 
 /*-----------------------------
  * NAVIGATION & HEADER STYLE
@@ -211,7 +228,9 @@ button:focus,
     z-index: 9;
 }
 
+
 /*Logo*/
+
 .navbar-brand {
     padding: 0;
     height: auto;
@@ -222,7 +241,6 @@ button:focus,
     .navbar-brand {
         width: 200px;
     }
-
     .navbar-brand img {
         max-width: 100%;
         height: auto;
@@ -296,12 +314,10 @@ button:focus,
     .main-menu .nav li {
         text-align: center;
     }
-
     .main-menu .nav li a {
         padding: 5px 0;
         color: #0B9CBE;
     }
-
     .navbar-collapse {
         margin-top: 10px;
         background: #fff;
@@ -310,11 +326,12 @@ button:focus,
 
 
 /* Sticky Menu */
+
 .sticky-nav {
     position: fixed;
     right: 0;
     left: 0;
-    top : 0;
+    top: 0;
     z-index: 999;
     background: #ffffff !important;
     padding: 5px 0;
@@ -328,12 +345,12 @@ button:focus,
     color: #0B9CBE;
 }
 
-.sticky-nav .navbar-toggle .icon-bar{
+.sticky-nav .navbar-toggle .icon-bar {
     background: #0B9CBE;
 }
 
 @media (max-width: 768px) {
-    .sticky-nav{
+    .sticky-nav {
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -350,7 +367,7 @@ button:focus,
 .jumbotron {
     background-color: #fff;
     padding: 0;
-    margin : 0;
+    margin: 0;
     height: 530px;
     position: relative;
     color: #0D1454;
@@ -380,26 +397,28 @@ button:focus,
     .jumbotron .content {
         min-height: auto;
     }
-
     .jumbotron .content h1 {
         font-size: 26px;
     }
-
     .jumbotron .content p.lead {
         font-size: 15px;
     }
 }
 
+
 /*---------------------------
  * Section Wrapper
  *---------------------------*/
+
 .section-wrapper {
     padding: 50px 0 0 0;
 }
 
+
 /*---------------------------
  * Section Title
  *---------------------------*/
+
 .section-title {
     margin-bottom: 60px;
     text-align: center;
@@ -414,9 +433,11 @@ button:focus,
     color: #888888;
 }
 
+
 /* ----------------------------------------------
  * About Event
  *-----------------------------------------------*/
+
 .about-event .lead {
     font-size: 19px;
     line-height: 1.7em;
@@ -432,7 +453,7 @@ button:focus,
     color: #353e55;
 }
 
- .thumbnail {
+.thumbnail {
     padding: 0;
     line-height: 22px;
     background-color: transparent;
@@ -494,7 +515,6 @@ button:focus,
 .team .thumbnail h3 {
     font-size: 16px;
     font-weight: bold;
-
     margin: 0 40px;
     text-transform: uppercase;
     padding: 10px 0;
@@ -527,9 +547,11 @@ button:focus,
     color: #F7B621;
 }
 
+
 /* --------------------------
  * Agenda
  *---------------------------*/
+
 .section-agenda .session {
     padding: 15px 0;
     border-left: 1px solid #eeeeee;
@@ -563,8 +585,9 @@ td {
     font-size: 18px;
 }
 
-.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-    background-color:hsl(42, 93%, 92%);
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: hsl(42, 93%, 92%);
 }
 
 td:first-child,
@@ -589,41 +612,35 @@ footer .fa {
     padding-top: 20px;
 }
 
-@media
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
-
-	table, thead, tbody, th, td, tr {
-		display: block;
-	}
-
-	thead tr {
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-}
-
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
     td:empty {
         display: none;
-}
-
-	td {
-		position: relative;
-		padding-left: 50%;
-	}
-
-	td:before {
-		position: absolute;
-		top: 6px;
-		left: 6px;
-		width: 45%;
-		padding-right: 10px;
-		white-space: nowrap;
-	}
+    }
+    td {
+        position: relative;
+        padding-left: 50%;
+    }
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
 }
 
 .sticky-nav .nav li a.active {
-    color: #F7B621;;
+    color: #F7B621;
+    ;
 }
 
 .title {
@@ -642,7 +659,6 @@ only screen and (max-width: 760px),
 }
 
 @media (max-width: 766px) {
-
     .pricing-section .pricing-table-default {
         margin-bottom: 30px;
     }
@@ -681,6 +697,7 @@ only screen and (max-width: 760px),
     margin: 0;
 }
 
+
 /*pricing list*/
 
 .pricing-section .pricing-list li {
@@ -698,6 +715,7 @@ only screen and (max-width: 760px),
 .pricing-section .pricing-detail .pink-i li {
     position: relative;
 }
+
 
 /* --------------------------
  * Client Logo
@@ -721,11 +739,11 @@ only screen and (max-width: 760px),
 }
 
 @media (max-width: 992px) {
-
     .client-logo .section-margin {
         margin-bottom: 30px;
     }
 }
+
 
 /* ------------------
  * Google Map
@@ -737,6 +755,7 @@ only screen and (max-width: 760px),
     margin-bottom: 100px;
 }
 
+
 /* ---------------------------
  * Subscribe Form
  * --------------------------- */
@@ -744,7 +763,6 @@ only screen and (max-width: 760px),
 .subscribe-form {
     text-align: center;
 }
-
 
 
 /*-------------------
@@ -781,15 +799,17 @@ only screen and (max-width: 760px),
 }
 
 @media (max-width: 600px) {
-    .form-control.input-lg{
+    .form-control.input-lg {
         min-width: auto;
         display: block;
     }
 }
 
+
 /* --------------------------------------------
  *   Footer
  *---------------------------------------------- */
+
 
 /* Copyright */
 
@@ -803,4 +823,3 @@ only screen and (max-width: 760px),
     font-weight: 400;
     display: block;
 }
-
