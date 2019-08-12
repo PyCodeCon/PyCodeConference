@@ -1,184 +1,147 @@
 <!DOCTYPE html>
-<html class="gr__pycode-conference_org"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+
+<head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>PyCode Conference</title>
-
-    <!-- favicon -->
-    <link href="img/favicon.png" rel="icon">
-
-    <!-- web-fonts -->
+    <link href="img/favicon.png" rel=icon>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
-
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Font-awesome -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Style CSS -->
     <link href="css/style.css?v3" rel="stylesheet">
-
-    <!-- Static pages CSS -->
-    <link href="css/staticpages.css" rel="stylesheet">
-
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar" data-gr-c-s-loaded="true">
-<div id="main-wrapper">
 
-    <header class="header">
-        <!-- Navigation -->
-        <nav class="navbar main-menu sticky-nav" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+    <div id="main-wrapper">
+        <header class="header">
+            <nav class="navbar main-menu" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="index.html"><img src="img/pycode.png" alt="pycode"></a>
-                </div>
-                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden"><a href="#page-top"></a></li>
-
-                        <li class="dropdown">
-                            <a href="#"
-                                class="dropdown-toggle"
-                                data-toggle="dropdown"
-                                role="button" aria-haspopup="true" aria-expanded="false">
+                        <a class="navbar-brand page-scroll" href="#section-intro"><img src="img/pycode.png" alt="pycode"></a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="hidden">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 Programme <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="page-scroll" href="index.html#section-C4P">C4P</a></li>
-                                <li><a class="page-scroll" href="index.html#section-speaker">Speakers</a></li>
-                                <li><a class="page-scroll" href="index.html#section-agenda">Agenda</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown">
-                            <a href="#"
-                                class="dropdown-toggle"
-                                data-toggle="dropdown"
-                                role="button" aria-haspopup="true" aria-expanded="false">
+                                <ul class="dropdown-menu">
+                                    <li><a class="page-scroll" href="index.html#section-C4P">C4P</a></li>
+                                    <li><a class="page-scroll" href="index.html#section-speaker">Speakers</a></li>
+                                    <li><a class="page-scroll" href="index.html#section-agenda">Agenda</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 Cooperation <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="page-scroll" href="index.html#section-sponsor">Sponsors</a></li>
-                                <li><a class="page-scroll" href="index.html#section-partner">Partners</a></li>
-                                <li><a class="page-scroll" href="index.html#section-suppoer">Support us</a></li>
-                            </ul>
-                        </li>
+                                <ul class="dropdown-menu">
+                                    <li><a class="page-scroll" href="index.html#section-sponsor">Sponsors</a></li>
+                                    <li><a class="page-scroll" href="index.html#section-partner">Partners</a></li>
+                                    <li><a class="page-scroll" href="index.html#section-support">Support us</a></li>
+                                </ul>
+                            </li>
 
-                        <li class="dropdown">
-                            <a href="#"
-                                class="dropdown-toggle"
-                                data-toggle="dropdown"
-                                role="button" aria-haspopup="true" aria-expanded="false">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 Participation <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="page-scroll" href="index.html#section-pricing">Tickets</a></li>
-                                <li><a class="page-scroll" href="index.html#section-venue">Place</a></li>
-                                <li><a href="code_of_conduct.html">Code of conduct</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown">
-                            <a href="#"
-                                class="dropdown-toggle"
-                                data-toggle="dropdown"
-                                role="button" aria-haspopup="true" aria-expanded="false">
+                                <ul class="dropdown-menu">
+                                    <li><a class="page-scroll" href="index.html#section-pricing">Tickets</a></li>
+                                    <li><a class="page-scroll" href="index.html#section-venue">Place</a></li>
+                                    <li><a href="code_of_conduct.html">Code of conduct</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 About <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a class="page-scroll" href="index.html#section-organizers">Organizers</a></li>
-                                <li><a href="archives.html">Archives</a></li>
-                                <li><a href="privacy.html">Privacy policy</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                                <ul class="dropdown-menu">
+                                    <li><a class="page-scroll" href="index.html#section-organizers">Organizers</a></li>
+                                    <li><a href="archives.html">Archives</a></li>
+                                    <li><a href="privacy.html">Privacy policy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- /.navbar-collapse -->
+            </nav>
+        </header>
+
+        <div class="jumbotron text-center">
+            <div class="content">
+                <div class="event-date">October 14-16, 2019, Gdańsk, Poland</div>
+                <h1>PyCode Conference 2019</h1>
+                <p class="lead">PyCode Conference 2019 is a conference devoted to the Python language. The organizers are people from the language community.
+                </p>
+                <ul class="social-links list-inline text-center">
+                    <li>
+                        <a href="https://www.facebook.com/pg/pycode.conf"><i class="fa fa-facebook"></i>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/pycode_conf"><i class="fa fa-twitter"></i>
+                            </a>
+                    </li>
+                </ul>
             </div>
-            <!-- /.container -->
-        </nav>
-        <!-- .nav -->
-    </header>
-
-    <div class="jumbotron-staticpage text-center">
-        <div class="content">
-            <div class="event-date"> October 14-16, 2019, Gdańsk, Poland</div>
-            <h1>PyCode Conference 2019</h1>
-            </p>
-
         </div>
-    </div>
 
-
-    <section id="section-static" class="section-wrapper pricing-section gray-bg">
-        <div class="container">
-            <h2>Privacy Policy</h2>
-            <p>
-                <strong>What data do we collect?</strong>
-            </p>
-            <p><span>Data collected automatically</span></p>
-            <p>During your visit on our website, we collect your IP address, browser and operating system type.</p>
-            <p>When you contact us via e-mail or contact form, you provide us with your personal details like name, surname and e-mail address.</p>
-            <p><span><strong>How do we process your data?</strong></span></p>
-            <p>Under no circumstances will we sell data collected about you to third parties. Data collected automatically can be used to analyze the behavior and origin of users visiting the site or to personalize the content of our site. Data is collected automatically for each user.</p>
-            <p>Data collected during the correspondence between you and our website will be used only to respond to your inquiry. <br> In case of the Inspector General for Personal Data Protection inspection your data may be made available to the employees of the Inspectorate in accordance with the Law on Personal Data Protection.</p>
-            <p>In the event of a breach of the Regulations of our site, violation of the law, or if required by law, we may disclose your information to the judicial authorities.</p>
-            <p><span><strong>Cookie files (cookies)</strong></span></p>
-            <p>Cookies are very small files that the web page saves in your browser's clipboard on your computer. Thanks to such files, it can remember your individual settings on given page.</p>
-            <p><span><strong>Changes to our privacy policy</strong></span></p>
-            <p>We reserve the right to change this privacy policy by publishing a new privacy policy on this site. <br> If you have additional questions regarding privacy protection, please contact us.</p>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="copyright-section">
+        <section id="section-static" class="section-wrapper pricing-section gray-bg">
             <div class="container">
-                <div class="col-md-12">
-
-                    <div class="copytext text-center">
-                        PyCode Conference &copy; Design by <a href="https://uicookies.com/">uicookies</a>,
-                        under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 license</a>
-                    </div>
-                    <div class="copytext text-center"><small>Changes made by Beata Mormol and <a
-                            href="https://nataliastanko.com">Natalia Stanko</a></small>
-                    </div>
-                    <ul class="social-links list-inline text-center">
-                        <li>
-                            <a href="https://www.facebook.com/pg/pycode.conf"><i
-                                class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/pycode_conf"><i
-                                class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <h2>Privacy Policy</h2>
+                <p>
+                    <strong>What data do we collect?</strong>
+                </p>
+                <p><span>Data collected automatically</span></p>
+                <p>During your visit on our website, we collect your IP address, browser and operating system type.</p>
+                <p>When you contact us via e-mail or contact form, you provide us with your personal details like name, surname and e-mail address.</p>
+                <p><span><strong>How do we process your data?</strong></span></p>
+                <p>Under no circumstances will we sell data collected about you to third parties. Data collected automatically can be used to analyze the behavior and origin of users visiting the site or to personalize the content of our site. Data is collected
+                    automatically for each user.</p>
+                <p>Data collected during the correspondence between you and our website will be used only to respond to your inquiry. <br> In case of the Inspector General for Personal Data Protection inspection your data may be made available to the employees
+                    of the Inspectorate in accordance with the Law on Personal Data Protection.</p>
+                <p>In the event of a breach of the Regulations of our site, violation of the law, or if required by law, we may disclose your information to the judicial authorities.</p>
+                <p><span><strong>Cookie files (cookies)</strong></span></p>
+                <p>Cookies are very small files that the web page saves in your browser's clipboard on your computer. Thanks to such files, it can remember your individual settings on given page.</p>
+                <p><span><strong>Changes to our privacy policy</strong></span></p>
+                <p>We reserve the right to change this privacy policy by publishing a new privacy policy on this site. <br> If you have additional questions regarding privacy protection, please contact us.</p>
             </div>
-            <!-- .container -->
-        </div>
-        <!-- .copyright-section -->
-    </footer>
-    <!-- .footer -->
+        </section>
 
-</div>
-<!-- #main-wrapper -->
+        <footer class="footer">
+            <div class="copyright-section">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="copytext text-center">
+                            PyCode Conference &copy; Design by <a href="https://uicookies.com/">uicookies</a>, under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 license</a>
+                        </div>
+                        <div class="copytext text-center"><small>Changes made by <a href="https://nataliastanko.com">Natalia Stanko</a></small>
+                        </div>
+                        <ul class="social-links list-inline text-center">
+                            <li>
+                                <a href="https://www.facebook.com/pg/pycode.conf"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/pycode_conf"><i class="fa fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .container -->
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+</body>
 
-
-<!-- jquery -->
-<script src="js/jquery-2.1.4.min.js"></script>
-
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="js/jquery.easing.min.js"></script>
-
-
-</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
+</html>

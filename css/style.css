@@ -220,14 +220,6 @@ button:focus,
  * NAVIGATION & HEADER STYLE
  *-------------------------------*/
 
-.header {
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    top: 40px;
-    z-index: 9;
-}
-
 
 /*Logo*/
 
@@ -368,29 +360,18 @@ button:focus,
     background-color: #fff;
     padding: 0;
     margin: 0;
-    height: 530px;
     position: relative;
     color: #0D1454;
 }
 
-.jumbotron .content {
-    position: absolute;
-    top: 170px;
-    padding: 0 30px;
-}
-
-.jumbotron .content h1 {
-    font-weight: bold;
-}
-
 .jumbotron .content p.lead {
     font-size: 24px;
-    line-height: 1.5em;
+    line-height: 1.5e;
 }
 
 .jumbotron .content .event-date {
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 600px) {
@@ -402,6 +383,12 @@ button:focus,
     }
     .jumbotron .content p.lead {
         font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron.staticpage .content h1 {
+        font-size: 18px;
     }
 }
 
