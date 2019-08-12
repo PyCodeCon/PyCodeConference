@@ -7,6 +7,37 @@ Author: uiCookies.com, nataliastanko
 #F7B621;
 */
 
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+    2. Global Typography
+    3. Section Background / .gray-bg / .white-bg
+	4. Header /
+	    4.1. .top-bar
+		4.2. Navigation / .navbar
+	5. Hero Slider / .hero-slide
+	6. Services / .services
+	7. About Us / .about-us
+	8. Testimonial / .testimonialOne
+	9. Team / .team
+	10. Pricing Table / .pricing-section
+	11. Client Logo / .client-logo
+	12. Contact Section
+	    12.1. #googleMap
+	    12.2. Contact Form
+	13. Footer / .footer
+	14. Preloader / #preloader
+
+
+# [Color codes]
+
+# Body  (text): #888
+# Heading Color #0E1555
+# Theme Color (link color) #FD367E
+# Mid grey (sub header) #666666
+# -------------------------------------------------------------------*/
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
@@ -57,6 +88,9 @@ h6 {
     line-height: 24px;
 }
 
+/* --------------------------------------
+ * LINK STYLE
+ *------------------------------------------*/
 a {
     color: #f7b621;
     text-decoration: none;
@@ -157,6 +191,9 @@ button:focus,
     background-color: #ffffff;
 }
 
+/* --------------------
+ *  main Wrapper
+ * -------------------*/
 #main-wrapper {
     background: #ffffff;
     overflow: hidden;
@@ -271,6 +308,8 @@ button:focus,
     }
 }
 
+
+/* Sticky Menu */
 .sticky-nav {
     position: fixed;
     right: 0;
@@ -351,10 +390,16 @@ button:focus,
     }
 }
 
+/*---------------------------
+ * Section Wrapper
+ *---------------------------*/
 .section-wrapper {
     padding: 50px 0 0 0;
 }
 
+/*---------------------------
+ * Section Title
+ *---------------------------*/
 .section-title {
     margin-bottom: 60px;
     text-align: center;
@@ -369,6 +414,9 @@ button:focus,
     color: #888888;
 }
 
+/* ----------------------------------------------
+ * About Event
+ *-----------------------------------------------*/
 .about-event .lead {
     font-size: 19px;
     line-height: 1.7em;
