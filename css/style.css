@@ -86,7 +86,7 @@ h4 {
 h5 {
     font-size: 16px;
     line-height: 1.5em;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 h6 {
@@ -483,6 +483,15 @@ button:focus,
 #section-organizers img {
     max-width: 100px;
     max-height: 100px;
+}
+
+#organizers .modal-dialog img,
+.modal-dialog img {
+    padding-bottom: 10px;
+}
+
+.modal-dialog h5 {
+    margin: 10px 0 0 0;
 }
 
 @media (max-width: 767px) {
