@@ -473,7 +473,11 @@ button:focus,
 }
 
 #section-partner .logotype {
-    height: 100px;
+    height: 120px;
+}
+
+#section-partner .logotype.bigger {
+    height: 150px;
 }
 
 #organizers img {
