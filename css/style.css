@@ -480,18 +480,9 @@ button:focus,
     height: 150px;
 }
 
-#organizers img {
-    padding-bottom: 30px;
-}
-
 #section-organizers img {
     max-width: 100px;
     max-height: 100px;
-}
-
-#organizers .modal-dialog img,
-.modal-dialog img {
-    padding-bottom: 10px;
 }
 
 .modal-dialog h5 {
