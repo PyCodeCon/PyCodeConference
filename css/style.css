@@ -727,6 +727,10 @@ footer .fa {
     transition: all 0.8s ease 0s;
 }
 
+.client-logo a img.if-square {
+ max-width: 150px;
+}
+
 .client-logo a:hover img {
     opacity: .5;
 }
