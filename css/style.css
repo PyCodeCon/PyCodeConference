@@ -719,16 +719,13 @@ footer .fa {
  *---------------------------*/
 
 .client-logo a img {
-    width: 100%;
+    width: auto;
     max-width: 200px;
+    max-height: 120px;
     -webkit-transition: all 0.8s ease 0s;
     -moz-transition: all 0.8s ease 0s;
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
-}
-
-.client-logo a img.if-square {
- max-width: 150px;
 }
 
 .client-logo a:hover img {
