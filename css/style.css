@@ -369,9 +369,15 @@ button:focus,
     line-height: 1.5e;
 }
 
-.jumbotron .content .event-date {
+.jumbotron .content .event-date,
+.jumbotron .content .event-place {
     font-size: 24px;
     margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.jumbotron .content .event-place {
+    color: #0D9CBE;
 }
 
 @media (max-width: 600px) {
@@ -586,9 +592,17 @@ footer .fa {
     font-size: 20px;
 }
 
+.jumbotron {
+    margin-bottom: 20px;
+}
+
 .jumbotron .fa {
     font-size: 60px;
     padding: 20px;
+}
+
+.jumbotron .lead {
+    margin: 0 20px;
 }
 
 .single-text {
@@ -597,6 +611,15 @@ footer .fa {
 
 .single-text.pricing-detail {
     padding-top: 20px;
+}
+
+#coming-soon .single-text {
+    font-size: 24px;
+}
+
+#section-organizers .row.text-center > div {
+    display: inline-block;
+    float: none;
 }
 
 @media only screen and (max-width: 760px),
