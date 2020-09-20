@@ -617,10 +617,13 @@ footer .fa {
     font-size: 24px;
 }
 
+/** uneven number of elem. */
+/*
 #section-organizers .row.text-center > div {
     display: inline-block;
     float: none;
 }
+*/
 
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px) {
