@@ -22,7 +22,7 @@ Author: uiCookies.com, nataliastanko
 	7. About Us / .about-us
 	8. Testimonial / .testimonialOne
 	9. Team / .team
-	10. Pricing Table / .pricing-section
+	10. Pricing Table / #section-pricing
 	11. Client Logo / .client-logo
 	12. Contact Section
 	    12.1. #googleMap
@@ -333,8 +333,15 @@ button:focus,
     transition: all .5s ease-in-out;
 }
 
+
 .sticky-nav .nav li a {
     color: #0B9CBE;
+}
+
+
+.sticky-nav .nav li a.active {
+    color: #F7B621;
+    ;
 }
 
 .sticky-nav .navbar-toggle .icon-bar {
@@ -357,6 +364,7 @@ button:focus,
 }
 
 .jumbotron {
+    margin-bottom: 20px;
     background-color: #fff;
     padding: 0;
     margin: 0;
@@ -365,8 +373,14 @@ button:focus,
 }
 
 .jumbotron .content p.lead {
+    margin: 0 20px;
     font-size: 24px;
     line-height: 1.5e;
+}
+
+.jumbotron .fa {
+    font-size: 60px;
+    padding: 20px;
 }
 
 .jumbotron .content .event-date,
@@ -398,22 +412,12 @@ button:focus,
     }
 }
 
-
-/*---------------------------
- * Section Wrapper
- *---------------------------*/
-
-.section-wrapper {
-    padding: 50px 0 0 0;
-}
-
-
 /*---------------------------
  * Section Title
  *---------------------------*/
 
 .section-title {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -472,6 +476,33 @@ button:focus,
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* ----------------------------------------------
+ * Sections
+ *-----------------------------------------------*/
+
+/** sections adjustments */
+
+#coming-soon .single-row {
+    font-size: 24px;
+}
+
+.single-text,
+.single-row {
+    margin-bottom: 40px;
+}
+
+/** uneven number of elem. */
+/*
+#section-organizers .row.text-center > div {
+    display: inline-block;
+    float: none;
+}
+*/
+
+.section-wrapper {
+    padding: 50px 0 0 0;
 }
 
 #section-sponsor .logotype {
@@ -542,7 +573,7 @@ button:focus,
 
 
 /* --------------------------
- * Agenda
+ * Section agenda
  *---------------------------*/
 
 .section-agenda .session {
@@ -592,38 +623,23 @@ footer .fa {
     font-size: 20px;
 }
 
-.jumbotron {
-    margin-bottom: 20px;
-}
+/* --------------------------
+ * Section pricing
+ *---------------------------*/
 
-.jumbotron .fa {
-    font-size: 60px;
-    padding: 20px;
-}
-
-.jumbotron .lead {
-    margin: 0 20px;
-}
-
-.single-text {
-    margin-bottom: 40px;
-}
-
-.single-text.pricing-detail {
+#section-pricing .pricing-detail {
     padding-top: 20px;
 }
 
-#coming-soon .single-text {
-    font-size: 24px;
+#section-pricing .diversity {
+    margin: 50px 0;
 }
 
-/** uneven number of elem. */
-/*
-#section-organizers .row.text-center > div {
-    display: inline-block;
-    float: none;
+#section-pricing .pricing-table-default {
+    border: 1px solid #f1f1f1;
+    background: #ffffff;
+    padding-bottom: 20px;
 }
-*/
 
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -657,33 +673,13 @@ footer .fa {
     }
 }
 
-.sticky-nav .nav li a.active {
-    color: #F7B621;
-    ;
-}
-
-.title {
-    color: #0e1555;
-    letter-spacing: 1px;
-}
-
-.diversity {
-    margin: 50px 0;
-}
-
-.pricing-section .pricing-table-default {
-    border: 1px solid #f1f1f1;
-    background: #ffffff;
-    padding-bottom: 20px;
-}
-
 @media (max-width: 766px) {
-    .pricing-section .pricing-table-default {
+    #section-pricing .pricing-table-default {
         margin-bottom: 30px;
     }
 }
 
-.pricing-section .pricing-head h3 {
+#section-pricing .pricing-head h3 {
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
@@ -693,7 +689,7 @@ footer .fa {
     background-color: #0e1555;
 }
 
-.pricing-section .pricing-head .price {
+#section-pricing .pricing-head .price {
     display: block;
     font-size: 60px;
     line-height: 60px;
@@ -701,37 +697,36 @@ footer .fa {
     padding: 0;
 }
 
-.pricing-section .pricing-head .price sup {
+#section-pricing .pricing-head .price sup {
     font-size: 24px;
     font-weight: bold;
     vertical-align: super;
     top: 0;
 }
 
-.pricing-section .pricing-detail {
+#section-pricing .pricing-detail {
     margin: 0 50px 15px 50px;
 }
 
-.pricing-section .pricing-detail p {
+#section-pricing .pricing-detail p {
     margin: 0;
 }
 
-
 /*pricing list*/
 
-.pricing-section .pricing-list li {
+#section-pricing .pricing-list li {
     display: block;
 }
 
-.pricing-section .pricing-list li i {
+#section-pricing .pricing-list li i {
     margin-right: 17px;
 }
 
-.pricing-section .pricing-list li:first-child {
+#section-pricing .pricing-list li:first-child {
     padding-top: 10px;
 }
 
-.pricing-section .pricing-detail .pink-i li {
+#section-pricing .pricing-detail .pink-i li {
     position: relative;
 }
 
