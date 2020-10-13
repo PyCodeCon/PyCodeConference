@@ -576,29 +576,29 @@ button:focus,
  * Section agenda
  *---------------------------*/
 
-.section-agenda .session {
+#section-agenda .session {
     padding: 15px 0;
     border-left: 1px solid #eeeeee;
     margin-bottom: 40px;
 }
 
-.section-agenda .session time {
+#section-agenda .session time {
     padding: 5px 25px 15px;
     border-bottom: 1px solid #eeeeee;
     display: inline-block;
 }
 
-.section-agenda .session h2 {
+#section-agenda .session h2 {
     margin: 20px 0 0 20px;
 }
 
-.section-agenda .session h3 {
+#section-agenda .session h3 {
     margin: 20px 0 20px 20px;
     font-size: 20px;
     text-transform: uppercase;
 }
 
-.section-agenda .session h3 span {
+#section-agenda .session h3 span {
     font-size: 14px;
     display: block;
     line-height: 1;

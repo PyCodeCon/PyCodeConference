@@ -37,16 +37,16 @@
                                 Programme <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="page-scroll" href="#section-C4P">C4P</a></li>
-                                    <li><a class="page-scroll" href="#coming-soon">Speakers</a></li>
-                                    <li><a class="page-scroll" href="#coming-soon">Agenda</a></li>
+                                    <li><a class="page-scroll" href="#section-speakers">Speakers</a></li>
+                                    <li><a class="page-scroll" href="#section-agenda">Agenda</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 Cooperation <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="page-scroll" href="#coming-soon">Sponsors</a></li>
-                                    <li><a class="page-scroll" href="#coming-soon">Partners</a></li>
+                                    <!--<li><a class="page-scroll" href="#section-sponsors">Sponsors</a></li>
+                                    <li><a class="page-scroll" href="section-partners">Partners</a></li>-->
                                     <li><a class="page-scroll" href="#section-support">Support us</a></li>
                                 </ul>
                             </li>
@@ -127,7 +127,27 @@
             </div>
         </section>
 
-        <section id="section-pricing" class="section-wrapper gray-bg">
+        <section id="section-speakers" class="section-wrapper gray-bg">
+            <div class="section-title">
+                <h2>Speakers</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <figure class="thumbnail">
+                            <a class="img-circle" href="#" data-toggle="modal" data-target="#pstoworowicz">
+                                <img src="img/speakers/pstoworowicz.jpg" class="img-responsive" alt="Paweł Stoworowicz" />
+                            </a>
+                            <figcaption class="caption text-center">
+                                Paweł Stoworowicz
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-pricing" class="section-wrapper">
             <div class="section-title">
                 <h2>Registration</h2>
             </div>
@@ -168,29 +188,25 @@
             -->
         </section>
 
-        <section id="coming-soon" class="section-wrapper">
-            <div class="section-title">
-                <h2>Coming soon</h2>
-            </div>
+        <section id="section-agenda" class="section-wrapper section-agenda gray-bg">
             <div class="container">
-                <div class="row text-center single-row">
-                    <div class="col-xs-3">
-                        Speakers
-                    </div>
-                    <div class="col-xs-3">
-                        Agenda
-                    </div>
-                    <div class="col-xs-3">
-                        Sponsors
-                    </div>
-                    <div class="col-xs-3">
-                        Partners
+                <div class="section-title">
+                    <h2>Agenda</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="session">
+                            <h2>Python under the hood</h2>
+                            <h3><a href="#" data-toggle="modal" data-target="#pstoworowicz">Paweł Stoworowicz</a> <span>Software developer, electronics engineer</span></h3>
+                        </div>
+                        <!-- .session -->
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="section-support" class="section-wrapper gray-bg">
+        <section id="section-support" class="section-wrapper">
             <div class="section-title">
                 <h2>Support us</h2>
             </div>
@@ -198,7 +214,7 @@
             </div>
         </section>
 
-        <section id="section-organizers" class="section-wrapper">
+        <section id="section-organizers" class="section-wrapper gray-bg">
             <div class="section-title">
                 <h2>Organizers</h2>
             </div>
@@ -408,6 +424,38 @@
                             <div class="media-body">
                                 <p>Software engineer since 2009. Experienced Symfony and Ruby on Rails developer. OSes, web frameworks and new technologies passionate.</p>
                                 <p>IT events (hakathons, conferences, meetups) organizer since 2013. Technical speaker, coach, leader & community builder. Women in Technology in Cracow founder, Tech Leaders Poland team founders member.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- speakers -->
+
+        <div class="modal fade" id="pstoworowicz">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Paweł Stoworowicz</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="img/speakers/pstoworowicz.jpg" alt="Paweł Stoworowicz" />
+                                <h5>Speaker</h5>
+                                <ul class="social-links list-inline">
+                                    <li>
+                                        <a href="https://twitter.com/Stoworow"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/pawel-stoworowicz/"><i class="fa fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="media-body">
+                                <p>Software developer, electronics engineer, Python fan. Currently exploring area of serverless solutions and IoT. Guitar player in free time.</p>
                             </div>
                         </div>
                     </div>
