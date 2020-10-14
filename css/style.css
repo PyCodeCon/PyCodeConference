@@ -484,6 +484,13 @@ button:focus,
 
 /** sections adjustments */
 
+.section-title span, .diversity span {
+    font-size: 14px;
+    display: block;
+    line-height: 1;
+    font-style: italic;
+}
+
 #coming-soon .single-row {
     font-size: 24px;
 }
