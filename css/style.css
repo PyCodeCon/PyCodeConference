@@ -240,8 +240,15 @@ button:focus,
 }
 
 .navbar.main-menu .logo {
-    width: 250px;
-    height: 70px;
+    width: 200px;
+    height: 50px;
+}
+
+ @media screen and (max-width: 300px) {
+    .navbar.main-menu .logo {
+        width: 100px;
+        height: 25px;
+    }
 }
 
 .navbar {
