@@ -512,13 +512,12 @@ button:focus,
     margin-bottom: 40px;
 }
 
-/** uneven number of elem. */
-/*
-#section-organizers .row.text-center > div {
+/** odd / uneven number of elem. */
+
+#section-speakers .row.text-center > div {
     display: inline-block;
     float: none;
 }
-*/
 
 .section-wrapper {
     padding: 50px 0 0 0;
