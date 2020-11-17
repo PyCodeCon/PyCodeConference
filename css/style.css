@@ -476,7 +476,7 @@ button:focus,
     height: 100px;
     width: 100px;
     margin: 0 auto;
-    border-radius:
+    border-radius: 
 }
 
 .modal img {
@@ -515,6 +515,7 @@ button:focus,
 /** odd / uneven number of elem. */
 
 #section-speakers .row.text-center > div,
+#section-organizers .row.text-center > div,
 #section-partner .row.text-center > div {
     display: inline-block;
     float: none;
@@ -532,9 +533,14 @@ button:focus,
     height: 120px;
 }
 
-#section-organizers img {
-    max-width: 100px;
-    max-height: 100px;
+#section-organizers img,
+#section-organizers .thumbnail a {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+#section-organizers figcaption {
+    font-size: 14px;
 }
 
 .modal-dialog h5 {
