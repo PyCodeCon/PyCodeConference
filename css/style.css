@@ -514,7 +514,6 @@ button:focus,
 
 /** odd / uneven number of elem. */
 
-#section-speakers .row.text-center > div,
 #section-organizers .row.text-center > div,
 #section-partner .row.text-center > div {
     display: inline-block;
