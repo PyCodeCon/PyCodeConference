@@ -601,31 +601,46 @@ button:focus,
  *---------------------------*/
 
 #section-agenda .session {
-    padding: 15px 0;
+    padding: 15px 0 0 0;
     border-left: 1px solid #eeeeee;
-    margin-bottom: 40px;
+    margin-bottom:  0px;
 }
 
 #section-agenda .session time {
-    padding: 5px 25px 15px;
+    font-size: 16px;
+    padding: 5px 15px 15px;
     border-bottom: 1px solid #eeeeee;
     display: inline-block;
 }
 
 #section-agenda .session h2 {
-    margin: 20px 0 0 20px;
+    font-size: 16px;
+    padding: 10px 0 0 20px;
 }
 
 #section-agenda .session h3 {
-    margin: 20px 0 20px 20px;
-    font-size: 20px;
+    margin: 10px 0 20px 20px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 
 #section-agenda .session h3 span {
-    font-size: 14px;
+    font-size: 12px;
     display: block;
     line-height: 1;
+}
+
+#section-agenda .agenda-day {
+    color: #f7b621;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+#section-agenda .session.break > h2,
+#section-agenda .session.break > time
+{
+    font-size: 12px;
+    padding-left: 100px;
 }
 
 td {
