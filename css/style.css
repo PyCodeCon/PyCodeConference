@@ -601,9 +601,9 @@ button:focus,
  *---------------------------*/
 
 #section-agenda .session {
-    padding: 15px 0 0 0;
+    padding: 0;
     border-left: 1px solid #eeeeee;
-    margin-bottom:  0px;
+    margin: 0;
 }
 
 #section-agenda .session time {
@@ -613,7 +613,8 @@ button:focus,
     display: inline-block;
 }
 
-#section-agenda .session h2 {
+#section-agenda .session h2,
+#section-agenda .session h6 {
     font-size: 16px;
     padding: 10px 0 0 20px;
 }
@@ -630,17 +631,21 @@ button:focus,
     line-height: 1;
 }
 
+#section-agenda .session h2 span {
+    color: #F7BB31;
+}
+
 #section-agenda .agenda-day {
     color: #f7b621;
     font-weight: 900;
     margin: 20px 0;
 }
 
-#section-agenda .session.break > h2,
+#section-agenda .session.break > h6,
 #section-agenda .session.break > time
 {
     font-size: 12px;
-    padding-left: 100px;
+    padding: 0 0 0 100px;
 }
 
 td {
