@@ -479,11 +479,6 @@ button:focus,
     border-radius: 
 }
 
-.modal img {
-    max-height: 170px;
-    max-width: 170px;
-}
-
 .logotype {
     display: flex;
     flex-direction: column;
@@ -512,14 +507,6 @@ button:focus,
     margin-bottom: 40px;
 }
 
-/** odd / uneven number of elem. */
-
-#section-organizers .row.text-center > div,
-#section-partner .row.text-center > div {
-    display: inline-block;
-    float: none;
-}
-
 .section-wrapper {
     padding: 50px 0 0 0;
 }
@@ -542,8 +529,33 @@ button:focus,
     font-size: 14px;
 }
 
+@media (min-width: 1200px) {
+    /** odd / uneven number of elem. */
+    #section-organizers .row > div {
+        display: inline-block;
+        float: none;  
+    }
+}
+
+/* modals*/
+
 .modal-dialog h5 {
     margin: 10px 0 0 0;
+}
+
+.modal img {
+    max-height: 170px;
+    max-width: 170px;
+}
+
+.media-body {
+    width: auto;
+    display: block;
+    overflow: initial;
+}
+
+.media-left {
+    float: left;
 }
 
 @media (max-width: 767px) {
@@ -676,7 +688,8 @@ footer .fa {
 }
 
 #section-pricing .diversity {
-    margin: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #section-pricing .pricing-table-default {
