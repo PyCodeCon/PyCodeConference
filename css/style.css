@@ -643,7 +643,7 @@ button:focus,
     line-height: 1;
 }
 
-#section-agenda .session h2 span {
+.workshop {
     color: #F7BB31;
 }
 
