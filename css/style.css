@@ -679,6 +679,10 @@ footer .fa {
     font-size: 20px;
 }
 
+#section-agenda .announcement {
+    padding: 0 20px;
+}
+
 /* --------------------------
  * Section pricing
  *---------------------------*/
