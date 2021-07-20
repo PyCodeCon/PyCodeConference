@@ -47,6 +47,7 @@ body {
     font-weight: 100;
     background: #FFFFFF;
     border: 10px solid #fff;
+    font-weight: 400;
 }
 
 h1,
@@ -892,7 +893,7 @@ footer .fa {
 
 .footer .copyright-section {
     font-size: 13px;
-    color: #888888;
+    color: #8B795E;
     padding: 30px 0;
 }
 
