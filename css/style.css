@@ -530,6 +530,11 @@ button:focus,
     font-size: 14px;
 }
 
+#section-organizers p {
+    font-size: 12px;
+    text-align: center;
+}
+
 @media (min-width: 1200px) {
     /** odd / uneven number of elem. */
     #section-organizers .row > div {
