@@ -884,6 +884,16 @@ footer .fa {
 }
 
 
+#privacy-policy ul li {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#privacy-policy ul {
+    margin-bottom: 20px;
+}
+
+
 /* --------------------------------------------
  *   Footer
  *---------------------------------------------- */
