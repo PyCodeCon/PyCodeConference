@@ -122,7 +122,7 @@
             <h2 class="section-title">Speakers</h2>
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-md-2 col-md-offset-3">
+                    <div class="col-md-2 col-md-offset-2">
                         <figure class="thumbnail">
                             <a class="img-circle" href="#" data-toggle="modal" data-target="#hstevance">
                                 <img src="img/speakers/hstevance.jpeg" class="img-responsive" alt="Dr. Heloise Stevance" />
@@ -152,6 +152,16 @@
                             </figcaption>
                         </figure>
                     </div>
+                    <div class="col-md-2">
+                        <figure class="thumbnail">
+                            <a class="img-circle" href="#" data-toggle="modal" data-target="#supadhyay">
+                                <img src="img/speakers/supadhyay.jpg" class="img-responsive" alt="Saket Upadhyay" />
+                            </a>
+                            <figcaption class="caption text-center">
+                                Saket Upadhyay
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </section>
@@ -164,15 +174,25 @@
             </div>
             <div class="row">
                 <div class="single-text text-center">
-                    <div class="session">
-                        <h2>Open source: A scientist's perspective</h2>
-                        <h3><a href="#" data-toggle="modal" data-target="#hstevance">Dr. Heloise Stevance</a> <span>MPhys, AFHEA, PhD, Research Fellow in Astrophysics</span></h3>
+                    <div class="col-md-4 col-md-offset-2">
+                        <div class="session">
+                            <h2>Open source: A scientist's perspective</h2>
+                            <h3><a href="#" data-toggle="modal" data-target="#hstevance">Dr. Heloise Stevance</a> <span>MPhys, AFHEA, PhD, Research Fellow in Astrophysics</span></h3>
+                        </div>
+                        <div class="single-text text-center">
+                            <div class="session">
+                                <h2>Python: The African Community and Leadership</h2>
+                                <h3><a href="#" data-toggle="modal" data-target="#adogbe">Abigail Dogbe</a> <span>lead of PyLadies in Ghana</span></h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="single-text text-center">
-                    <div class="session">
-                        <h2>Python: The African Community and Leadership</h2>
-                        <h3><a href="#" data-toggle="modal" data-target="#adogbe">Abigail Dogbe</a> <span>lead of PyLadies in Ghana</span></h3>
+                <div class="col-md-4">
+                    <div class="single-text text-center">
+                        <div class="session">
+                            <h2>Automating malware process scanning with Python3</h2>
+                            <h3><a href="#" data-toggle="modal" data-target="#supadhyay">Saket Upadhyay</a> <span>Researcher, cybersecurity and digital forensics student</span></h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -278,7 +298,6 @@
 
         <!-- speakers -->
 
-
         <div class="modal fade" id="hstevance">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -344,6 +363,37 @@
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="supadhyay">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Saket Upadhyay - Automating malware process scanning with Python3</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="img/speakers/supadhyay.jpg" alt="Saket Upadhyay" />
+                                <h5>Speaker</h5>
+                                <ul class="social-links list-inline">
+                                    <li>
+                                        <a href="https://github.com/Saket-Upadhyay"><i class="fa fa-github"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="media-body">
+                                <p>Saket Upadhyay is a security research intern at Uptycs and a cybersecurity and digital forensics student at VIT University. He has worked in the field of penetration testing and vulnerability assessment with reputed firms and won multiple international awards and holds the "Best Paper Award" from IEEE Big Data Conference 2019 for his research contribution on the framework for malware detection with multiple ML models. His current research area includes malware reverse engineering, threat analysis and adaptive cyber defence strategies.</p>
+                                <h6>Automating malware process scanning with Python3</h6>
+                                <p>Wanna see how we can make life easier by automating malware and threat analysis using python? In this presentation, we will discuss automating memory-based malicious pattern scanning using Yara in the Linux process. We will learn how we can logically achieve similar automation and how to distribute the processing load/overhead using multithreading in Python3. After this discussion, you should be able to use Yara, threading, Queue and pathlib libraries in Python3 to help you in your next automation project!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- organizers -->
 
         <div class="modal fade" id="askamruk">
@@ -467,8 +517,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- speakers -->
 
 
         <!-- modals end -->
