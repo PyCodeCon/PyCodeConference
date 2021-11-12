@@ -125,10 +125,6 @@ a:focus {
     color: #F7B621;
 }
 
-p {
-    margin-bottom: 20px;
-}
-
 p.lead {
     font-size: 19px;
     line-height: 1.7em;
