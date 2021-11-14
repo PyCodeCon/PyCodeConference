@@ -542,8 +542,19 @@ button:focus,
 
 /* modals*/
 
+.modal-dialog h4 {
+    font-weight: 600;
+}
+
 .modal-dialog h5 {
-    margin: 10px 0 0 0;
+    margin: 1rem 0 0 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.modal-dialog h6 {
+    margin: 2rem 0;
+    font-size: 2rem;
 }
 
 .modal img {
@@ -617,25 +628,23 @@ button:focus,
 
 #section-agenda .session {
     padding: 0;
-    border-left: 1px solid #eeeeee;
-    margin: 0;
+    margin: 10px 0 20px 40px;
 }
 
 #section-agenda .session time {
     font-size: 16px;
-    padding: 5px 15px 15px;
-    border-bottom: 1px solid #eeeeee;
     display: inline-block;
 }
 
 #section-agenda .session h2,
 #section-agenda .session h6 {
     font-size: 16px;
-    padding: 10px 0 0 20px;
+    padding: 0;
+    margin: 0;
 }
 
 #section-agenda .session h3 {
-    margin: 10px 0 20px 20px;
+    margin: 0px 0 20px 20px;
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -660,7 +669,11 @@ button:focus,
 #section-agenda .session.break > time
 {
     font-size: 12px;
-    padding: 0 0 0 100px;
+}
+
+#section-agenda .session small {
+    font-size: 12px;
+    font-weight: 300;
 }
 
 td {
