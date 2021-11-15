@@ -660,8 +660,6 @@ button:focus,
 }
 
 #section-agenda .agenda-day {
-    color: #f7b621;
-    font-weight: 900;
     margin: 20px 0;
 }
 
@@ -674,6 +672,12 @@ button:focus,
 #section-agenda .session small {
     font-size: 12px;
     font-weight: 300;
+}
+
+#section-agenda .session small.distinct, 
+.distinct {
+    color: #f7b621;
+    font-weight: 900;
 }
 
 td {

@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/style.css?v21" rel="stylesheet">
+    <link href="css/style.css?v22" rel="stylesheet">
 
     <meta property="og:image" content="https://pycode-conference.org/img/pycode-cover-1200x628.png">
     <meta property="og:image:type" content="image/png">
@@ -172,7 +172,7 @@
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-2 col-md-offset-2">
+                    <div class="col-md-2 col-md-offset-1">
                         <figure class="thumbnail">
                             <a class="img-circle" href="#" data-toggle="modal" data-target="#supadhyay">
                                 <img src="img/speakers/supadhyay.jpg" class="img-responsive" alt="Saket Upadhyay" />
@@ -212,6 +212,17 @@
                             </figcaption>
                         </figure>
                     </div>
+                    <div class="col-md-2">
+                        <figure class="thumbnail">
+                            <a class="img-circle" href="#" data-toggle="modal" data-target="#nfunde">
+                                <img src="img/speakers/nfunde.jpeg" class="img-responsive" alt="Nitish Funde" />
+                            </a>
+                            <figcaption class="caption text-center">
+                                Nitish Funde
+                            </figcaption>
+                        </figure>
+                    </div>
+                    
                 </div>
                 <div class="row text-center">
                     <div class="col-md-2 col-md-offset-1">
@@ -278,18 +289,18 @@
                 <div class="col-md-4 col-md-offset-2">
                     <div class="session">
                         <h2>Open source: A scientist's perspective</h2>
-                        <small>40 mins keynote talk</small>
+                        <small class="distinct">40 mins keynote talk</small>
                         <h3><a href="#" data-toggle="modal" data-target="#hstevance">Dr. Heloise Stevance</a> <span>MPhys, AFHEA, PhD, Research Fellow in Astrophysics</span></h3>
                     </div>
                     <div class="session">
                         <h2>Python: The African Community and Leadership</h2>
-                        <small>40 mins keynote talk</small>
+                        <small class="distinct">40 mins keynote talk</small>
                         <h3><a href="#" data-toggle="modal" data-target="#adogbe">Abigail Dogbe</a> <span>lead of PyLadies in Ghana</span></h3>
                     </div>
                     <div class="session">
-                        <h2>Python release process</h2>
-                        <small>40 mins keynote talk</small>
-                        <h3><a href="#" data-toggle="modal" data-target="#llanga">Łukasz Langa</a> <span>Python core developer</span></h3>
+                        <h2>Knowledge graph data modelling with TerminusDB</h2>
+                        <small>2h 30 mins workshop</small>
+                        <h3><a href="#" data-toggle="modal" data-target="#cheuktingho">Cheuk Ting Ho</a> <span>Data engineer</span></h3>
                     </div>
                     <div class="session">
                         <h2>Random Number Generator using a Variation Quantum Circuit</h2>
@@ -314,6 +325,16 @@
                 </div>
                 <div class="col-md-4">
                     <div class="session">
+                        <h2>Python Pivots</h2>
+                        <small class="distinct">40 mins keynote talk</small>
+                        <h3><a href="#" data-toggle="modal" data-target="#ccomito">Dr. Claudia Comito</a> <span>PhD, astrophysics</span></h3>
+                    </div>
+                    <div class="session">
+                        <h2>Python release process</h2>
+                        <small class="distinct">40 mins keynote talk</small>
+                        <h3><a href="#" data-toggle="modal" data-target="#llanga">Łukasz Langa</a> <span>Python core developer</span></h3>
+                    </div>
+                    <div class="session">
                         <h2>Python for Cyber Security</h2>
                         <small>20 min talk</small>
                         <h3><a href="#" data-toggle="modal" data-target="#nrani">Nanda Rani </a> <span>PhD Scholar, Cyber Security and AI/ML</span></h3>
@@ -329,19 +350,14 @@
                         <h3><a href="#" data-toggle="modal" data-target="#ighosh">Indranil Ghosh</a> <span>Scientific computing</span></h3>
                     </div>
                     <div class="session">
+                        <h2>Python Optimization Package</h2>
+                        <small>45 mins workshop</small>
+                        <h3><a href="#" data-toggle="modal" data-target="#nfunde">Nitish Funde</a> <span>Postdoctoral Researcher</span></h3>
+                    </div>
+                    <div class="session">
                         <h2>Automating malware process scanning with Python3</h2>
                         <small>60 mins talk</small>
                         <h3><a href="#" data-toggle="modal" data-target="#supadhyay">Saket Upadhyay</a> <span>Researcher, cybersecurity and digital forensics</span></h3>
-                    </div>
-                    <div class="session">
-                        <h2>Knowledge graph data modelling with TerminusDB</h2>
-                        <small>2h 30 mins workshop</small>
-                        <h3><a href="#" data-toggle="modal" data-target="#cheuktingho">Cheuk Ting Ho</a> <span>Data engineer</span></h3>
-                    </div>
-                    <div class="session">
-                        <h2>Python Pivots</h2>
-                        <small></small>
-                        <h3><a href="#" data-toggle="modal" data-target="#ccomito">Dr. Claudia Comito</a> <span>PhD, astrophysics</span></h3>
                     </div>
                 </div>
             </div>
@@ -713,6 +729,36 @@
                                 <h6>Knowledge graph data modelling with TerminusDB <small>2h 30 mins workshop</small></h6>
                                 <p>Storing data in a tabular format is not always ideal. Taking advantage of strong data in knowledge graphs can make handling complex data structure possible and data visualization easier. In this workshop, you will get all the basics to start modelling data in the terms of triples and building schemas of a knowledge graph.</p>
                                 <p>By the end of the workshop, you will be able to think like a knowledge graph expert and construct a proper schema to store your data in a knowledge graph format. You will acquire the skills that you need to build knowledge graphs in TerminusDB - an open-source graph database that enables revisional control and collaborations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="nfunde">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Nitish Funde - Python Optimization Package</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="img/speakers/nfunde.jpeg" alt="Nitish Funde" />
+                                <h5>Speaker</h5>
+                                <ul class="social-links list-inline">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/nitesh-funde-ph-d-b24b2254/"><i class="fa fa-linkedin"></i>
+                                    </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="media-body">
+                                <p>Nitesh Funde received the B.E. degree in information technology and M.Tech. in computer science and engineering from Nagpur University, Nagpur, India, in 2011 and 2014 respectively and Ph.D. degree in computer science and engineering from, Visvesvaraya National Institute of Technology (VNIT), in 2020. He is currently a Postdoctoral Researcher with the Soongsil University, Foundation of University-Industry Cooperation, Seoul, South Korea. He is associated with VIT-AP University as an Assistant Professor. He was working as a Lab Engineer with the Centre of Excellence for Commbedded Systems, Department of Electronics and Communication Engineering, VNIT where he was involved in research projects of national importance. His research interests include Smart Grids, Energy Management, Data Analytics and Internet of Things. He uses Python and MATLAB for his research. </p>
+                                <h6>Python Optimization Package <small>45 mins workshop</small></h6>
+                                <p>Advanced Process Monitor (APM) is optimization software for mixed-integer and differential algebraic equations. It is coupled with large-scale solvers for linear, quadratic, nonlinear, and mixed integer programming (LP, QP, NLP, MILP, MINLP). Modes of operation include data reconciliation, moving horizon estimation, real-time optimization, dynamic simulation, and nonlinear predictive control with solution capabilities for high-index differential and algebraic (DAE) equations. The APMonitor modeling language is a high-level abstraction of mathematical optimization problems. Values in the models are defined by Constants, Parameters, and Variables. The values are related to each other by Intermediates or Equations. Objective functions are defined to maximize or minimize certain values. Objects are built-in collections of values (constants, parameters, and variables) and relationships (intermediates, equations, and objective functions).</p>
                             </div>
                         </div>
                     </div>
